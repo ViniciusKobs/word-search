@@ -15,6 +15,9 @@ const SideText = () => {
       <p>???? - retorna todas as palavras de 4 letras</p>
       <p>??h?s - retorna todas as palavras de 5 letras que tem "h" no meio e terminam com "s"</p>
       <p>!??#??o Inclui:"a,lo" Exclui:"u,ma" #Inclui:"lcd" !Exclui:"aeiou" - retorna todas as palavras de 7 letras que possuem "a" e "lo", não possuem "u" e "ma", a quarta letra é "l", "c" ou "d" e não começam com uma vogal</p>
+      <h1 className='text-2xl'>Links:</h1>
+      <a href="https://github.com/RehbeinKobs" target="__blank"><p>Meu perfil do github</p></a>
+      <a href="https://github.com/RehbeinKobs/word-search" target="__blank">Repositorio do projeto</a>
     </div>
   );
 }
