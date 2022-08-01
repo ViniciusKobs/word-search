@@ -38,23 +38,23 @@ const Input = (props) => {
           </div>
           <div className='m-1 w-96 flex'>
             <div className='grow text-center'>Inclui</div>
-            <input className='bg-zinc-700 pl-1 placeholder:text-zinc-500' name='wordInclude' onChange={handleInput} placeholder='a,b,c,d' />
+            <input className='bg-zinc-700 pl-1 placeholder:text-zinc-500 w-64' name='wordInclude' onChange={handleInput} placeholder='a,b,c,d' />
           </div>
           <div className='m-1 w-96 flex'>
             <div className='grow text-center'>Exclui</div>
-            <input className='bg-zinc-700 pl-1 placeholder:text-zinc-500' name='wordExclude' onChange={handleInput} placeholder='a,b,c,d'/>
+            <input className='bg-zinc-700 pl-1 placeholder:text-zinc-500 w-64' name='wordExclude' onChange={handleInput} placeholder='a,b,c,d'/>
           </div>
           <div className='m-1 w-96 flex'>
             <div className='grow text-center'># Inclui</div>
-            <input className='bg-zinc-700 pl-1 placeholder:text-zinc-500' name='tokenInclude' onChange={handleInput} placeholder='abcd'/>
+            <input className='bg-zinc-700 pl-1 placeholder:text-zinc-500 w-64' name='tokenInclude' onChange={handleInput} placeholder='abcd'/>
           </div>
           <div className='m-1 w-96 flex'>
             <div className='grow text-center'>! Exclui</div>
-            <input className='bg-zinc-700 pl-1 placeholder:text-zinc-500' name='tokenExclude' onChange={handleInput} placeholder='abcd'/>
+            <input className='bg-zinc-700 pl-1 placeholder:text-zinc-500 w-64' name='tokenExclude' onChange={handleInput} placeholder='abcd'/>
           </div>
           <div className='m-1 w-96 flex'>
             <div className='grow text-center'>Formato</div>
-            <input className='bg-zinc-700 pl-1 placeholder:text-zinc-500' name='word' onChange={handleInput} placeholder='a?b#c!d@'/>
+            <input className='bg-zinc-700 pl-1 placeholder:text-zinc-500 w-64' name='word' onChange={handleInput} placeholder='a?b#c!d@'/>
           </div>
           <div className='m-1 w-96 flex'>
             <button className='bg-zinc-700 ml-1 grow' onClick={handleSearchClick}>Pesquisar</button>
